@@ -1,0 +1,26 @@
+.app-Wrapper{
+    display: grid;    
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: 
+    "GridHeader GridHeader"
+    "GridNav GridContent";
+
+    /* grid-gap: 10px; */
+}
+
+.header{
+grid-area: GridHeader;
+}
+.header img
+{
+    width: 60px;
+}
+
+.nav{
+grid-area: GridNav;
+}
+
+.content{
+grid-area: GridContent;
+}
