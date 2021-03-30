@@ -1,5 +1,5 @@
-import Technologies from './Techologies.js';
-import Header from './Header.js';
+import Header from "./Header";
+import Technologies from "./Techologies";
 
 function App() {
   return (
