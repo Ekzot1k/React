@@ -1,9 +1,9 @@
 import postModule from './Post.module.css';
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={postModule.item}>
-            Post #
+            {props.Text} создан {props.Date} сентября 2021г.
         </div>)
 }
 
