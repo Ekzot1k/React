@@ -1,5 +1,7 @@
+import navbarModule from './Navbar.module.css';
+
 const Navbar = () => {
-    return <nav className='navbar'>
+    return <nav className={navbarModule.navbar}>
         <div>
             <a href="#">Profile</a>
         </div>

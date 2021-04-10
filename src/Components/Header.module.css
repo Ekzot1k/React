@@ -1,0 +1,8 @@
+.header {
+    grid-area: GridHeader;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+}

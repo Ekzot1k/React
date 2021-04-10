@@ -4,23 +4,10 @@
     grid-template-columns: 2fr 10fr;
     grid-template-areas: 
     "GridHeader GridHeader"
-    "GridNav GridContent";
-
-    /* grid-gap: 10px; */
+    "GridNavbar GridProfile";
 }
 
-.header{
-grid-area: GridHeader;
-}
-.header img
-{
+.img{
     width: 60px;
-}
-
-.navbar{
-grid-area: GridNav;
-}
-
-.content{
-grid-area: GridContent;
+    height: 60px;
 }
