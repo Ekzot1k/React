@@ -4,10 +4,10 @@ const Navbar = () => {
     return (
         <div className={navbarModule.navbar}>
             <div>
-                <a href="#">Profile</a>
+                <a href="/profile">Profile</a>
             </div>
             <div>
-                <a href="#">Message</a>
+                <a href="/dialogs">Message</a>
             </div>
             <div>
                 <a href="#">News</a>
