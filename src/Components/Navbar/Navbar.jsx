@@ -2,7 +2,7 @@ import navbarModule from './Navbar.module.css';
 
 const Navbar = () => {
     return (
-        <nav className={navbarModule.navbar}>
+        <div className={navbarModule.navbar}>
             <div>
                 <a href="#">Profile</a>
             </div>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <div>
                 <a href="#">Settings</a>
             </div>
-        </nav>)
+        </div>)
 }
 
 export default Navbar;

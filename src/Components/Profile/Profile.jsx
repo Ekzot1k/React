@@ -3,7 +3,7 @@ import MyPosts from './MyPosts/MyPosts'
 
 const Profile = () => {
     return (
-        <div className={profilModule.profile}>
+        <div>
             <div>
                 <img src='https://fsd.multiurok.ru/html/2017/06/25/s_594fba42bf816/653571_1.jpeg'></img>
             </div>

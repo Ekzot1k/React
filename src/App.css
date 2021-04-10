@@ -1,13 +1,10 @@
-.app-Wrapper{
-    display: grid;    
+.app-Wrapper {
+    display: grid;
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
-    grid-template-areas: 
-    "GridHeader GridHeader"
-    "GridNavbar GridProfile";
+    grid-template-areas: "GridHeader GridHeader" "GridNavbar GridContent";
 }
 
-.img{
-    width: 60px;
-    height: 60px;
+.app-Wrapper-content {
+    grid-area: GridContent;
 }
