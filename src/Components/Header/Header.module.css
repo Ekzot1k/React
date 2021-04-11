@@ -1,5 +1,6 @@
 .header {
     grid-area: GridHeader;
+    background-color: lightslategray;
 }
 
 .header img {

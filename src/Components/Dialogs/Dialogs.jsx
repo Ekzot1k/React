@@ -2,7 +2,7 @@ import dialogsModule from './Dialogs.module.css';
 
 const Dialogs = (props) => {
     return (
-        <div>
+        <div className={dialogsModule.dialogs}>
             Dialogs
         </div>)
 }
