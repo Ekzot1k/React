@@ -1,0 +1,14 @@
+.item {    
+    padding: 5px;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.item a.active{
+    color: white;
+    font-size: 20px;
+}

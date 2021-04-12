@@ -1,5 +1,7 @@
 .dialogs {
-    background-color:lightsteelblue;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color:lightslategray;
     height: 100vh;
     width: 10fr;
 }

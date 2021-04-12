@@ -1,3 +1,7 @@
-.profile {
-    grid-area: GridProfile;
+.myPosts{
+    padding: 10px;
+}
+
+.posts{
+    padding-top: 20px;
 }
