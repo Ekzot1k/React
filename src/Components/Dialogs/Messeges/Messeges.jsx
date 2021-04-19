@@ -4,7 +4,7 @@ import Message from './Message/Message';
 const Messeges = (props) => {
     return (
         <div className={messegesModule.messeges} >
-            {props.MessagesData.map(mes => <Message Text={mes.Text} />)}
+            {props.DataSourceMessages.map(mes => <Message Text={mes.Text} />)}
         </div>)
 };
 

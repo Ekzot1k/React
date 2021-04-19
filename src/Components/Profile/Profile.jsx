@@ -2,12 +2,12 @@ import profilModule from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
 import Info from './Info/Info';
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={profilModule.profile}>
             <Info />
-            <MyPosts />
+            <MyPosts DataSourcePosts={props.DataSourcePosts} />
         </div>)
-}
+};
 
 export default Profile;
