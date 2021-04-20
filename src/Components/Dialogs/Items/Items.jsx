@@ -4,7 +4,7 @@ import itemsModule from './Items.module.css';
 const Items = (props) => {
     return (
         <div className={itemsModule.items}>
-            {props.DataSourceItems.map(item => <Item Name={item.Name} ID={item.ID} />)}
+            {props.Data.map(item => <Item Name={item.Name} ID={item.ID} />)}
         </div>)
 };
 

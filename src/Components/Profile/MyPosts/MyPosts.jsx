@@ -11,7 +11,7 @@ const MyPosts = (props) => {
                 <button>New post</button>
             </div>
             <div className={myPostsModule.posts}>
-                {props.DataSourcePosts.map(p => <Post Text={p.Text} Date={p.Date} />)}
+                {props.Data.map(p => <Post Text={p.Text} Date={p.Date} />)}
             </div>
         </div>)
 };

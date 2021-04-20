@@ -1,10 +1,10 @@
 import messegesModule from './Messeges.module.css';
 import Message from './Message/Message';
 
-const Messeges = (props) => {
+const Messeges = (props) => { 
     return (
         <div className={messegesModule.messeges} >
-            {props.DataSourceMessages.map(mes => <Message Text={mes.Text} />)}
+            {props.Data.map(mes => <Message Text={mes.Text} />)}
         </div>)
 };
 

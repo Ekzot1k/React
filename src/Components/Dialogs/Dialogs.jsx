@@ -5,8 +5,8 @@ import Messeges from './Messeges/Messeges';
 const Dialogs = (props) => {
     return (
         <div className={dialogsModule.dialogs}>
-            <Items DataSourceItems = {props.DataSourceItems}/>
-            <Messeges DataSourceMessages = {props.DataSourceMessages}/>
+            <Items Data = {props.Data.Items}/>
+            <Messeges Data = {props.Data.Messages}/>
         </div>)
 };
 

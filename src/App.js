@@ -15,8 +15,8 @@ function App(props) {
                 <Header />
                 <Navbar />
                 <div className="app-Wrapper-content">
-                    <Route path='/Dialogs' render={() => <Dialogs DataSourceItems={props.DataSourceItems} DataSourceMessages={props.DataSourceMessages} />} />
-                    <Route path='/Profile' render={() => <Profile DataSourcePosts={props.DataSourcePosts} />} />
+                    <Route path='/Dialogs' render={() => <Dialogs Data = {props.DataSource.Dialogs} />} />
+                    <Route path='/Profile' render={() => <Profile Data = {props.DataSource.Profile} />} />
                     <Route path='/Music' component={Music} />
                     <Route path='/News' component={News} />
                     <Route path='/Settings' component={Settings} />
